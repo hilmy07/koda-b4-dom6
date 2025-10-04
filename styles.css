@@ -11,6 +11,7 @@ nav {
   background-color: #333;
   color: #fff;
   position: relative;
+  width: full;
 }
 
 nav > div:nth-child(1) {
@@ -46,13 +47,14 @@ nav button {
   nav > div:nth-of-type(2) {
     flex-direction: column;
     position: absolute;
-    top: 60px;
-    right: 20px;
+    top: 54px;
+    right: 0px;
+    left: 0px;
     background-color: #444;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     display: none;
+    text-align: center;
   }
 
   nav.menu-open > div:nth-of-type(2) {
